@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HustlePort India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+		<span class="hustleport">HustlePort</span>
+		<span class="india">India</span>
+		</div>
+
+        <nav>
+		<div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio" class="nav-link" data-target="portfolio">Our Work</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials" class="nav-link" data-target="testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+	</nav>
+    </header>
+
+	<section id="home" class="home-section">
+    <div class="container">
+        <div class="home-text">
+            <h1>Your <span class="highlight">Professional Portfolio</span></h1>
+            <p>Elevate your brand with a sleek and interactive portfolio. We craft high-end, visually stunning, and fully responsive portfolios for professionals.</p>
+            <a href="#pricing" class="btn">Explore Services</a> <!-- View Portfolio Button -->
+        </div>
+    </div>
+	</section>
+
+
+<section id="services" class="services-section">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-container">
+        <div class="service-card">
+            <div class="icon">
+                <i class="fas fa-briefcase"></i>
+            </div>
+            <h3>Professional Portfolio Creation</h3>
+            <p>We design high-quality, visually stunning, and fully responsive portfolios to showcase your work.</p>
+            <a href="portfolio-service.html" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">
+                <i class="fas fa-globe"></i>
+            </div>
+            <h3>Business Website Development</h3>
+            <p>We build sleek and modern websites to help businesses establish a strong online presence.</p>
+            <a href="business-website.html" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">
+                <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Custom UI/UX Interfaces</h3>
+            <p>We craft interactive and user-friendly interfaces using HTML, CSS, and JavaScript.</p>
+            <a href="ui-ux-service.html" class="learn-more">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio"> <!-- Ensured id="portfolio" -->
+    <div class="portfolio-item">
+        <img src="p1.webp" alt="Professional Portfolio">
+        <h3>Professional Portfolio</h3>
+        <p>A modern and stylish portfolio showcasing skills, experience, and projects.</p>
+    </div>
+    <div class="portfolio-item">
+        <img src="p2.webp" alt="Business Website">
+        <h3>Business Website</h3>
+        <p>A fully responsive and feature-rich website tailored for businesses and startups.</p>
+    </div>
+    <div class="portfolio-item">
+        <img src="p3.webp" alt="UI/UX Interface">
+        <h3>Custom UI/UX Interface</h3>
+        <p>An intuitive and engaging user interface designed for seamless user experience.</p>
+    </div>
+</section>
+
+<section id="pricing" class="pricing-section">
+    <h2 class="section-title">Choose Your Plan</h2>
+    <div class="pricing-container">
+        
+        <!-- Professional Portfolio Plan -->
+        <div class="pricing-card">
+            <h3>Professional Portfolio</h3>
+            <p class="price">₹3000 - ₹5000</p>
+            <ul>
+                <li>✔ Modern & Responsive Design</li>
+                <li>✔ Optimized for Personal Branding</li>
+                <li>✔ SEO Friendly</li>
+                <li>✔ First 2 Small Modifications Free</li>
+                <li>✔ 50% Off on First 2 Major Changes</li>
+            </ul>
+            <a href="#" class="btn get-started-btn">Get Started</a>
+        </div>
+
+        <!-- Business Website Plan -->
+        <div class="pricing-card popular">
+            <h3>Business Website</h3>
+            <p class="price">₹3000 - ₹8000</p>
+            <ul>
+                <li>✔ Professional Business Website</li>
+                <li>✔ Mobile Responsive & SEO Optimized</li>
+                <li>✔ Includes Contact Form & Blog Setup</li>
+                <li>✔ First 2 Small Modifications Free</li>
+                <li>✔ 50% Off on First 2 Major Changes</li>
+            </ul>
+            <a href="#" class="btn get-started-btn">Get Started</a>
+        </div>
+
+        <!-- UI/UX Interface Plan -->
+        <div class="pricing-card">
+            <h3>UI/UX Interface</h3>
+            <p class="price">₹2000 - ₹4000</p>
+            <ul>
+                <li>✔ Custom UI/UX Design</li>
+                <li>✔ User-Centered Design Approach</li>
+                <li>✔ High-Fidelity Prototypes</li>
+                <li>✔ First 2 Small Modifications Free</li>
+                <li>✔ 50% Off on First 2 Major Changes</li>
+            </ul>
+            <a href="" class="btn get-started-btn">Get Started</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+    <div class="testimonials-container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <p>"Absolutely amazing service! The design quality is top-notch, and the support is outstanding!"</p>
+                <div class="testimonial-author">
+                    <h4>John Doe</h4>
+                    <span>CEO, TechCorp</span>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>"I'm impressed with the creativity and professionalism. Highly recommend this team!"</p>
+                <div class="testimonial-author">
+                    <h4>Sarah Smith</h4>
+                    <span>Founder, DesignHub</span>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>"Great experience! The project was completed on time with exceptional quality."</p>
+                <div class="testimonial-author">
+                    <h4>Michael Lee</h4>
+                    <span>Manager, WebSolutions</span>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-nav">
+            <span class="dot active" onclick="changeTestimonial(0)"></span>
+            <span class="dot" onclick="changeTestimonial(1)"></span>
+            <span class="dot" onclick="changeTestimonial(2)"></span>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="contact-circle">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/xrbpgkkk" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+    <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h3>About Us</h3>
+            <p>We provide top-notch web development, UI/UX design, and digital solutions to enhance your online presence.</p>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <p><i class="fas fa-phone-alt"></i> +123 456 7890</p>
+            <p><i class="fas fa-envelope"></i> contact@yourwebsite.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Sector 37D, Gurugram, Hariyana</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-legal">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+	
+</footer>
+<script src="script.js"></script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+</body>
+</html>
